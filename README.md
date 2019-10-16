@@ -15,3 +15,5 @@ contains a shell script with commands that are executed when Jenkins processes
 the "Deliver" stage of your Pipeline.
 
 The `pom.xml`file also includes junit dependency, `jacoco` plugin and `p3c-pmd` plugin for code coverage check and code norm check.
+
+The `sonar-project.properties` file is used for code quality analysis with Sonar-Scanner.
